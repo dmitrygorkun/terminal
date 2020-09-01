@@ -1,6 +1,6 @@
 {
   "name": "@gorkun/terminal",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Small wrapper for working with the console.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,8 +8,7 @@
   "author": "Dmitry Gorkun <dmitry@gorkun.ru>",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "rm -rf ./dist && tsc",
-    "prepare": "yarn run build"
+    "prepare": "rm -rf ./dist && tsc"
   },
   "keywords": [
     "terminal",
