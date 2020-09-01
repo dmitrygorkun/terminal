@@ -1,5 +1,5 @@
 {
-  "name": "terminal",
+  "name": "@gorkun/terminal",
   "version": "0.0.5",
   "description": "Small wrapper for working with the console.",
   "main": "dist/index.js",
