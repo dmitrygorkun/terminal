@@ -6,13 +6,27 @@
   "types": "dist/index.d.ts",
   "repository": "https://github.com/dmitrygorkun/terminal.git",
   "author": "Dmitry Gorkun <dmitry@gorkun.ru>",
-  "license": "UNLICENSED",
-  "private": false,
+  "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && tsc",
-    "prepare" : "yarn run build"
+    "prepare": "yarn run build",
+    "publish": "npm publish --access public"
   },
-  "files": ["dist/**/*"],
+  "keywords": [
+    "terminal",
+    "cli",
+    "console",
+    "command-line",
+    "log",
+    "logging"
+  ],
+  "files": [
+    "dist/**/*"
+  ],
+  "bugs": {
+    "url": "https://github.com/dmitrygorkun/terminal/issues"
+  },
+  "homepage": "https://github.com/dmitrygorkun/terminal#readme",
   "dependencies": {
     "chalk": "^4.1.0",
     "log-symbols": "^4.0.0",
