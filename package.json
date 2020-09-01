@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "repository": "https://github.com/dmitrygorkun/terminal.git",
   "author": "Dmitry Gorkun <dmitry@gorkun.ru>",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
     "build": "rm -rf ./dist && tsc",
     "prepare": "yarn run build"
