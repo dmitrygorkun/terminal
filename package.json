@@ -8,7 +8,10 @@
   "author": "Dmitry Gorkun <dmitry@gorkun.ru>",
   "license": "UNLICENSED",
   "scripts": {
-    "prepare": "rm -rf ./dist && tsc"
+    "clean": "rm -rf ./dist",
+    "build": "tsc",
+    "prepublishOnly": "yarn run build",
+    "postpublish": "yarn run clean"
   },
   "keywords": [
     "terminal",
